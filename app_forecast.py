@@ -14,6 +14,7 @@ BASE_NITRATE = 10.0
 
 # 2. Initialize App
 app = dash.Dash(__name__)
+server = app.server
 
 app.layout = html.Div([
     html.H2("Future Projection: Clean Water Probability (2026-2050)", style={'textAlign': 'center', 'fontFamily': 'sans-serif'}),
